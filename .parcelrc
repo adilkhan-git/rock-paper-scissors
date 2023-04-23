@@ -1,0 +1,15 @@
+{
+  "extends": "@parcel/config-default",
+  "resolvers": [
+    "@parcel/resolver-default"
+  ],
+  "transformers": {
+    "audio/mp3": [
+      "@parcel/transformer-file",
+      "@parcel/transformer-convert"
+    ],
+    "*": [
+      "@parcel/transformer-file"
+    ]
+  }
+}
