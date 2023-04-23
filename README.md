@@ -1,29 +1,18 @@
 # Rock-Paper-Scissors
 
-## Building and running on localhost
+Project Description: This is a Rock-Paper-Scissors game written in TypeScript and React.
 
-First install dependencies:
+## How to play
 
-```sh
-npm install
-```
+1. Choose your choice from three possible options: rock, scissors or paper.
+2. After the game is over, you can click the "Play Again" button to play again.
 
-To run in hot module reloading mode:
+## Run instructions
 
-```sh
-npm start
-```
+1. Clone the repository on your local computer.
+2. Install the dependencies by running the "npm install" command.
+3. Run the project by running the "npm start" command.
 
-To create a production build:
+## Project link
 
-```sh
-npm run build-prod
-```
-
-## Running
-
-Open the file `dist/index.html` in your browser
-
-## Credits
-
-Made with [createapp.dev](https://createapp.dev/)
+The project is hosted on [Netlify](https://neon-dasik-7d8edf.netlify.app/)
